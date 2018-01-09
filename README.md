@@ -3,7 +3,7 @@
 #### text2BAinWinConsole
 #### This is a program playing **Bad Apple!! PV** in ASCII art.
 
-Using converted ASCII art text files, this program prints 30 **frames** per second to make them animated. Meanwhile, it plays waveform asynchronously and displays name of the current character.
+Using converted ASCII art text files, this program prints 30 **frames** per second to make them animated. Meanwhile, it plays the song asynchronously and displays names of the current character.
 
 ## Download
 
@@ -22,9 +22,9 @@ Click [here](https://github.com/Pasc99/text2BAinWinConsole/raw/master/text2ba.zi
 
 - Capture every frame of the video.      via [Potplayer](https://potplayer.daum.net/) 
 
-- Convert the images into ASCII text files.      via [Ascgen2](https://ascgendotnet.jmsoftware.co.uk/)
+- Convert images into ASCII text files.      via [Ascgen2](https://ascgendotnet.jmsoftware.co.uk/)
 
-- Read the text files and output the contents to Windows Console 30 frames a second.
+- Read text files and output the contents to Windows Console 30 frames a second.
 
 Here is a sample.
 
