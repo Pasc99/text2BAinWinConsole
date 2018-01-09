@@ -11,14 +11,12 @@ Click [here](https://github.com/Pasc99/text2BAinWinConsole/raw/master/text2ba.zi
 
 `Caution: the program was only tested in Japanese environment. Please make some adjustment accordingly.`
 
-`"Command Prompt" Properties`
-
-`  Current code page - 932 (ANSI/OEM - Japanese Shift-JIS)`
-
-`  Font - MS Gothic`
-
-`  Size - 16`
-
+```
+  "Command Prompt" Properties
+  Code page - 932 (ANSI/OEM - Japanese Shift-JIS)
+  Font - MS Gothic
+  Size - 16
+```
 
 ## How this program is done
 
@@ -26,7 +24,7 @@ Click [here](https://github.com/Pasc99/text2BAinWinConsole/raw/master/text2ba.zi
 
 - Convert the images into ASCII text files.      via [Ascgen2](https://ascgendotnet.jmsoftware.co.uk/)
 
-- Read the text file and output the content to Windows Console.
+- Read the text files and output the content to Windows Console 30 frames a second.
 
 Here is a sample.
 
