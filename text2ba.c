@@ -2,20 +2,27 @@
 #include<time.h>
 #include<windows.h>
 #include<mmsystem.h>
+#define total_f 6569 //number of frames
 
 void csrs(void);
 
 int main()
 {
     FILE *fp ;
-    size_t nread; //number of elements
 	int i = 1, tpf; //time per frame
 	int time_sec, count_t, min = 0, sec;
 	char file_path[19], c[2480];
 	clock_t start_t, curr_t;
 
+	system("mode con: cols=90 lines=50"); //resizing console
+
 	printf("\n  Bad Apple!! in Command Prompt\n\n");
-	printf("  Please enjoy!\n\n  <Press ENTER to continue>");
+	printf("  ASCII ART generated from Bad Apple!! PV\n\n\n");
+	printf("  Åyìåï˚ÅzBad Apple!!Å@ÇoÇuÅyâeäGÅz <sm8628149>\n          by Ç†Ç…ÇÁ ól\n\n");
+	printf("  Song: Bad Apple!! feat. nomicoÅ^Alstroemeria Records\n");
+	printf("  Origin: Bad Apple!!  ìåï˚å∂ëzãΩÅ@Å` Lotus Land Story.\n");
+	printf("          by ZUNSoft (è„äCÉAÉäÉXå∂ûŸíc)\n\n");
+	printf("  Please enjoy!\n  <Press ENTER to continue>");
 	getchar();
 	PlaySound("res\\BA.wav", NULL, SND_ASYNC);
 	system("cls");
@@ -24,7 +31,7 @@ int main()
 	start_t = clock(); //starting the timer
 	count_t = start_t;
 
-	while (i <= 6569)
+	while (i <= total_f)
 	{
 	    curr_t = clock();
 		time_sec = (curr_t - start_t) / CLOCKS_PER_SEC;
@@ -49,7 +56,7 @@ int main()
             fclose(fp);
 
 			printf("\n ------------------------\n");
-			printf(" | Elapsed Time: %02d:%02d  |",min, sec);
+			printf(" | Elapsed Time: %02d:%02d  |\n | Frame.NO: %04d       |",min, sec, i);
 			printf("\n ------------------------\n");
 			csrs();
 
@@ -60,7 +67,8 @@ int main()
 
 	Sleep(1919);
 	system("cls");
-	printf("\n\n  Thank you for watching.\n");
+	printf("\n\n  Coded by InnoVeda\n\n");
+	printf("  Thank you for watching.\n");
 	printf("  <Press ENTER to exit>");
 	getchar();
 	return 0;
@@ -70,6 +78,6 @@ void csrs(void) //resetting the cursor
 {
     CONSOLE_SCREEN_BUFFER_INFO csbi;
 	HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
-	COORD pos = { 0, 0 };
+	COORD pos = { 0, 1 };
 	SetConsoleCursorPosition(h,pos);
 }
