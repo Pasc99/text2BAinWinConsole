@@ -1,7 +1,7 @@
-# <ASCII ART> Bad Apple!! in Windows Console
+# 『ASCII ART』 Bad Apple!! in Windows Console
 
-### text2BAinWinConsole
-### This is a program playing **Bad Apple!! PV** in ASCII art.
+#### text2BAinWinConsole
+#### This is a program playing **Bad Apple!! PV** in ASCII art.
 
 Using converted ASCII art text files, this program prints 30 **frames** per second to make them animated. Meanwhile, it plays waveform asynchronously and displays name of the current character.
 
