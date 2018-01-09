@@ -1,0 +1,31 @@
+@                 ,S                       aMMMMMMMMMMMMMX         . ....      
+                  ,X     .:                8MMMMMMMMMMMMMMM;      ,.,.,.:,:.   
+                                           0MMMMMMMMM   8MMM@;XX;  ,.,,,,:,::. 
+                                            0MMMMMMa      ;MMMM0MMi ,.:,,,::::,
+                            ,X.         27    :;iWX          .   i,,,,::::::,i:
+                             :,       iMMB        MX           .. ,,:,i:,,:::::
+                               :@MMMWBMMMM:      i;B,    ..,.,,:,:,:::,:ii:i:i:
+                              rMMMMMMMMMM7         aM,   .,,:,::::7i::i:r;i:ii;
+                              7MMMMMMMMr      XWBBMZ@MM; ,,::::i:iii:i:i:iii:i:
+                    i2        rMWBMMBXS7;X2MMMMWM7   MMB;;;i;i;i;;;i;i;i;i;i;;i
+                    .i          i2MM@BMMMMMM;        ,MMBSXX77rr;rrr;r;r;r;;;ZS
+          r7;                 aMMMMMMMW28;            ,MM8SXX7X7777r7rr;rrr;;;7
+         iMMMr               WMMMMMMMM2                :MMZSXSXX7X7X77r7r7r7rr;
+         ZMMM               XMM2BMMMMMM2                iMMZSXSXXXXXX7X77777777
+         MMM@        .XX    0MS .MMMMMMX                 XMMZSXSXSXXXX7X7X777Xr
+        SMMMM8:       X2@8X,rMZ SMMMMMM8                  rMMaSXSSSXXXXXXXXXXX7
+        MMMMMMW          .7XMMM2:MMMMMMM8.                 rMMaSSSSSXSXSXXXXXX7
+        8MMMM                XMMMMMMMMM;                    7MM2SXSXSXSXSXXXS22
+         MMMMM            :rB@MMMMMMMMMM;                    XMMaXXSXSSSXSSaZ2.
+        .MMMMMS   .  ,:2MMMM7iZMMMMMMMMMMMaBZii               XMM2SXSXSS22Z2;  
+        MMMMMM@: XMMWMMaZ7    MMMMMMMMMMMM:.72MMBr             SMMaSS2SaZZr    
+    ..:.2MMaMZ2MMW2S         WMMMMMMMMMMMMM0    .               7MM0ZZBa;      
+2Z0MMMWZXXr                 rMMMMMMMMMMMMMMMM;                   ,8@Z7r        
+...                         7MMMMMMMMMMMMMMMM@.          .                     
+                            rMMMMMMMMMMMMMW2:                                  
+                              @MWSZ2ZSWMM;                                     
+                             iMM2      2MB                                     
+                             ;MM2      XMMa                                    
+                             rM0        ZMX                                    
+                             ;M8        SMa                                    
+                             SMB         MMX                                   
