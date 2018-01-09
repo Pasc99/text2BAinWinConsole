@@ -12,9 +12,13 @@ Click [here](https://github.com/Pasc99/text2BAinWinConsole/raw/master/text2ba.zi
 `Caution: the program was only tested in Japanese environment. Please make some adjustment accordingly.`
 
 `"Command Prompt" Properties`
+
 `  Current code page - 932 (ANSI/OEM - Japanese Shift-JIS)`
+
 `  Font - MS Gothic`
+
 `  Size - 16`
+
 
 ## How this program is done
 
@@ -25,6 +29,7 @@ Click [here](https://github.com/Pasc99/text2BAinWinConsole/raw/master/text2ba.zi
 - Read the text file and output the content to Windows Console.
 
 Here is a sample.
+
 ![SAMPLE](https://raw.githubusercontent.com/Pasc99/text2BAinWinConsole/master/sample.JPG)
 
 
@@ -36,13 +41,16 @@ Here is a sample.
 > “Bad Apple!!” was originally included in the soundtrack of Level Stage 3 in the 4th Touhou Project game Lotus Land Story, created by series designer [ZUN](http://www16.big.or.jp/~zun/) and released in July 1998.
 
 > On May 20th, 2007, Masayoshi Minoshima, the founder of well-known, Touhou-affiliated doujin club [Alstroemeria Records](http://alst.net/) released a remix of “Bad Apple!!” featuring the voice of Japanese pop singer Nomico in an album called Lovelight.
-> - http://knowyourmeme.com/memes/bad-apple
+> [knowyourmeme](http://knowyourmeme.com/memes/bad-apple)
 
-####### And the PV created by fans was released two years after that.
+#### And the PV created by fans was released two years after that.
 
 You can click the links below to check it out. 
+
 http://www.nicovideo.jp/watch/sm8628149
+
 https://youtu.be/G3C-VevI36s
+
 https://www.bilibili.com/video/av706
 
 
