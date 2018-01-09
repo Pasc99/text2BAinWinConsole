@@ -3,15 +3,17 @@
 #include<windows.h>
 #include<mmsystem.h>
 #define total_f 6569 //number of frames
+#define CHUNK 3072 //processing 3KB at a time
 
 void csrs(void);
 
 int main()
 {
     FILE *fp ;
+    size_t nread; //number of elements
 	int i = 1, tpf; //time per frame
 	int time_sec, count_t, min = 0, sec;
-	char file_path[19], c[2480];
+	char file_path[19], buf[CHUNK];
 	clock_t start_t, curr_t;
 
 	system("mode con: cols=90 lines=50"); //resizing console
@@ -24,7 +26,15 @@ int main()
 	printf("          by ZUNSoft (è„äCÉAÉäÉXå∂ûŸíc)\n\n");
 	printf("  Please enjoy!\n  <Press ENTER to continue>");
 	getchar();
+
+	system("cls");
+	printf("\n  Loading...");
 	PlaySound("res\\BA.wav", NULL, SND_ASYNC);
+	Sleep(514);
+	PlaySound(NULL, 0, 0); //Pre-load
+
+	PlaySound("res\\BA.wav", NULL, SND_ASYNC);
+
 	system("cls");
 	csrs();
 
@@ -48,12 +58,11 @@ int main()
 		if((curr_t - count_t) >= tpf)
 		{
 		    fp = fopen(file_path, "r");
-		    while (fgets(c,2480,fp)!=NULL)
-		    {
-		        printf("%s", c);
-		    }
 
-            fclose(fp);
+		    while((nread = fread(buf, 1, sizeof buf, fp)) > 0)//reads data into the array pointed to
+                fwrite(buf, 1, nread, stdout);// writes data to standard output(console)
+
+		    fclose(fp);
 
 			printf("\n ------------------------\n");
 			printf(" | Elapsed Time: %02d:%02d  |\n | Frame.NO: %04d       |",min, sec, i);
