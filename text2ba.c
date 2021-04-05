@@ -77,7 +77,6 @@ int main()
 
 	Sleep(1919);
 	system("cls");
-	printf("\n\n  Coded by InnoVeda\n\n");
 	printf("  Thank you for watching.\n");
 	printf("  <Press ENTER to exit>");
 	getchar();
@@ -103,7 +102,7 @@ void sub(int i)
     else if(i >=1092 && i <=1217)
         printf("\n　　　　　　　　　「永遠に紅い幼き月」　レミリア・スカーレット\n");
     else if(i >=1362 && i <=1478)
-        printf("\n　　　　　　　　　　　　「完全で瀟洒なメイド」　いざよい咲夜\n");
+        printf("\n　　　　　　　　　　　　「完全で瀟洒なメイド」　十\六夜咲夜\n");
     else if(i >=1505 && i <=1710)
         printf("\n　　　　　　　　　　「悪魔の妹」　フランドール・スカーレット\n");
     else if(i >=1750 && i <=1880)
