@@ -5,11 +5,15 @@
 
 Using converted ASCII art text files, this program prints 30 **frames** per second to make them animated. Meanwhile, it plays the song asynchronously and displays names of the current character.
 
+Executable file was build via mingw
+
+```
+gcc text2ba.c -o text2ba.exe -lwinmm
+```
+
 ## Download
 
 Click [here](https://github.com/Pasc99/text2BAinWinConsole/raw/master/text2ba.zip)
-
-`Caution: the program was only tested in Japanese environment. Please make some adjustment accordingly.`
 
 ```
   "Command Prompt" Properties

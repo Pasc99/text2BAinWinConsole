@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<time.h>
 #include<windows.h>
-#include<mmsystem.h>
 #define total_f 6569 //number of frames
 #define CHUNK 3072 //processing 3KB at a time
 
@@ -16,6 +15,7 @@ int main()
 	char file_path[19], buf[CHUNK];
 	clock_t start_t, curr_t;
 
+	system("CHCP 932");//set code page to shift-jis
 	system("mode con: cols=90 lines=50"); //resizing console
 
 	printf("\n  Bad Apple!! in Command Prompt\n\n");
